@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reproductor +18</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="age-modal" role="dialog" aria-modal="true">
+    <h1>🔞 Solo mayores de 18 años</h1>
+    <p>Debes confirmar que eres mayor de edad para ver el video.</p>
+    <button id="btn-yes">Soy mayor de 18</button>
+    <button id="btn-no">No soy mayor</button>
+  </div>
+
+  <main id="main-content" class="hidden">
+    <div class="video-box" id="videoBox" tabindex="0" role="button" aria-label="Reproducir video">
+      <div class="play-button">&#9658;</div>
+    </div>
+  </main>
+
+  <script src="video.js"></script>
+</body>
+</html>
